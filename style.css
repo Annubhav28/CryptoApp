@@ -165,7 +165,7 @@ table img{margin-right: 20px; max-width: 100%; height: auto;}
     .wrap-1 nav ul li a{color: white;}
     .wrap-1 nav ul li{margin: 2px 0;}
     .wrap-1 button{margin: 0; }
-    .wrap-1 .navbar{ position: absolute; margin: 0; display: flex; flex-flow: column wrap; text-align: center;  background: black;  top: 40px; padding: 5px; align-items: center; justify-content: center; right: 0; left: 0;  z-index: 9999;}
+    .wrap-1 .navbar{ display:none; position: absolute; margin: 0; display: flex; flex-flow: column wrap; text-align: center;  background: black;  top: 40px; padding: 5px; align-items: center; justify-content: center; right: 0; left: 0;  z-index: 9999;}
     .wrap-2 .content h2{font-size: 2rem;}
     .wrap-2 .content p{font-size: .8rem;}
     .wrap-2 .content button{font-size: .8rem;}
