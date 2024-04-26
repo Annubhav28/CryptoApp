@@ -61,9 +61,17 @@ const getPrice = async () => {
     
 
 
-
-
-        document.querySelector("table tbody").innerHTML += `<tr><td><img src="https://assets.coincap.io/assets/icons/${symb}@2x.png" alt="">${coin}</td><td>$${price}</td><td style="color: ${colorchange};">${change}</td><td>${market}</td></tr>`
+        document.querySelector(".coin-info").innerHTML += `
+        <div class="coin-row">
+            <span class="coin-logo">
+                <img src="https://assets.coincap.io/assets/icons/${symb}@2x.png" height="44" width="44" alt="">
+                ${coin}
+            </span>
+            <span class="coin-price">$${price}</span>
+            <span class="coin-change" style="color: ${colorchange};">${change}</span>
+            
+        </div>`;
+    
 
 
     });
@@ -75,7 +83,7 @@ getPrice();
 $(function(){
     if(screen.width<767){
         $("nav a").click(function(e){
-            $(".navbar").slideUp();
+            $(".navbar").slideup();
         })
 
 
