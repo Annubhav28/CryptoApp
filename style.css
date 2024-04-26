@@ -163,11 +163,8 @@ p{font-family: 'roboto' ,sans-serif; line-height: 160%;}
     .wrap-1 nav ul li a{color: white;}
     .wrap-1 nav ul li{margin: 2px 0;}
     .wrap-1 button{margin: 0; }
-<<<<<<< HEAD
     .wrap-1 .navbar{ position: absolute; margin: 0; display: none; flex-flow: column wrap; text-align: center;  background: black;  top: 40px; padding: 5px; align-items: center; justify-content: center; right: 0; left: 0;  z-index: 9999;}
-=======
-    .wrap-1 .navbar{ display:none; position: absolute; margin: 0; display: flex; flex-flow: column wrap; text-align: center;  background: black;  top: 40px; padding: 5px; align-items: center; justify-content: center; right: 0; left: 0;  z-index: 9999;}
->>>>>>> c01ed7e0bc1817cb97f2b54cf88df6209ccb981b
+    
     .wrap-2 .content h2{font-size: 2rem;}
     .wrap-2 .content p{font-size: .8rem;}
     .wrap-2 .content button{font-size: .8rem;}
